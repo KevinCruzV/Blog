@@ -1,22 +1,22 @@
-<?php 
-session_start();
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Skyrock</title>
-</head>
-<body>
+<?php session_start();?>
+<?php include_once("head.php")?>
+
 <header>
-
+<?php include_once("nav_home.php");?>
 </header>
-<main>
-<h2>Connectez vous</h2>
-<form action="validationLog.php" method="post">
 
+<main>
+
+<h2>Connectez vous</h2>
+
+<form action="validationLog.php" method="post">
+<label for="login">Pseudo :</label>
+<input type="text" name="login" id="login">
+<label for="password">Mot de Passe :</label>
+<input type="password" name="password" id="password">
+<input type="submit" value="Enter">
 </form> 
-</main>   
-</body>
-</html>
+
+</main>  
+
+<?php include_once("foot.php")?>
