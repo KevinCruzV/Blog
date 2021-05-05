@@ -7,16 +7,17 @@
 
 <main>
 
-<h2>Connectez vous</h2>
+<h2>Inscrivez vous !</h2>
 
-<form action="validationLog.php" method="post">
-<label for="login">Pseudo :</label>
+<form action="validationInscrip.php" method="post">
+<label for="login">Login :</label>
 <input type="text" name="login" id="login" required>
 <label for="password">Mot de Passe :</label>
 <input type="password" name="password" id="password" required>
-<input type="submit" value="Enter">
+<label for="pass_confirm">Confirmation :</label>
+<input type="password" name="pass_confirm" id="pass_confirm" required>
+<input type="submit" value="Inscription">
 </form>
-<a href="inscription.php">Pas encore de compte ? Inscrivez vous</a> 
 
 </main>  
 

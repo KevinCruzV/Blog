@@ -12,7 +12,7 @@ if( isset($_SESSION["token"]) && $_SESSION["token"] == true ):
 
 <!-- Main -->
 <main>
-
+<p>Connecté !</p>
 </main>
 
 <?php include_once("foot.php")?>
